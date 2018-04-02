@@ -4,6 +4,11 @@ public class Mantenimiento {
 	
 	private Pabellon idpabellon;
 
+	public Mantenimiento()
+	{
+		idpabellon = new Pabellon();
+	}
+	
 	public Pabellon getIdpabellon() {
 		return idpabellon;
 	}
